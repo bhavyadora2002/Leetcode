@@ -4,8 +4,8 @@ class Solution:
         f=0
         e=0
         l=[]
-        if len(set(s))==1:
-            return len(s)
+        '''if len(set(s))==1:
+            return len(s)'''
         for i in s:
             if s.count(i)%2==0 and i not in l:
                 c+=s.count(i)
